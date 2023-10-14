@@ -105,14 +105,14 @@ struct playerprop{
 }players[4]={{"",0,-1,START_MONEY,0,0,0,0,{},0,0,0},{"",0,-1,START_MONEY,0,0,0,0,{},0,0,0},{"",0,-1,START_MONEY,0,0,0,0,{},0,0,0},{"",0,-1,START_MONEY,0,0,0,0,{},0,0,0}};
 
 //exit function
-void exit_monopoly()
-{
-    char tr;
-    tr=getch();
-    printf("Enter q to exit game and any other key to continue");
-    if(tr=='q')
-    exit(0);
-}
+// void exit_monopoly()
+// {
+//     char tr;
+//     tr=getch();
+//     printf("Enter q to exit game and any other key to continue");
+//     if(tr=='q')
+//     exit(0);
+// }
 //End screen after quiting or game over
 void end_screen_fun(){
     FILE* end_screen;
